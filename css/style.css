@@ -1,0 +1,47 @@
+body{
+	margin: 0;
+	scroll-behavior: smooth;
+	cursor: pointer;
+}
+.navbar-nav {
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+	margin-right: 50px !important;
+}
+/*.nav-item{
+	display: flex;
+	height: 90px;
+	justify-content: space-between;
+	align-items: center;*/
+}
+/*.logo{
+	margin-left: 5%;
+	text-transform: uppercase;
+}*/
+
+.light-blue.accent-4 {
+  background-color: #0091ea !important; 
+}
+.map-container{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+.banner{
+
+	background:linear-gradient(rgba(6,133,166,0.5),rgba(6,133,150,0.6),rgba(6,190,255,0.7)), url(../images/7.jpg);
+	height: 300px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
